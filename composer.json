@@ -1,6 +1,12 @@
 {
   "name": "lisanmiao/composer-package",
   "description": "lisanmiao fist composer package",
+  "keywords": ["utility", "helper", "calculator", "lisanmiao", "composer", "package"],
+  "homepage": "https://github.com/lisanmiao/composer-package",
+  "support": {
+    "issues": "https://github.com/lisanmiao/composer-package/issues",
+    "source": "https://github.com/lisanmiao/composer-package"
+  },
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -24,6 +30,9 @@
     "psr-4": {
       "Lisanmiao\\ComposerPackage\\Tests\\": "tests/"
     }
+  },
+  "scripts": {
+    "test": "phpunit tests/*"
   },
   "minimum-stability": "stable",
   "prefer-stable": true
