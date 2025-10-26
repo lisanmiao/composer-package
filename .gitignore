@@ -3,3 +3,5 @@
 .env
 .DS_Store
 phpunit.xml
+.idea
+composer.lock
