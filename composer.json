@@ -1,6 +1,6 @@
 {
   "name": "lisanmiao/composer-package",
-  "description": "one composer package",
+  "description": "lisanmiao fist composer package",
   "type": "library",
   "license": "MIT",
   "authors": [
