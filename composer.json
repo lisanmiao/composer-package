@@ -1,0 +1,30 @@
+{
+  "name": "lisanmiao/composer-package",
+  "description": "one composer package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lisanmiao",
+      "email": "service@rtool.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lisanmiao\\ComposerPackage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lisanmiao\\ComposerPackage\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
